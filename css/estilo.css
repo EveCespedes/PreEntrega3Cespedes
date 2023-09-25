@@ -1,0 +1,21 @@
+header .miFondo {
+  background-color: #fafafa;
+  border-top: #004A7C solid 5px;
+}
+header .navbar-collapse {
+  font-size: 30px;
+}
+header .nav-item {
+  margin-left: 20px;
+}
+header .nav-link {
+  color: #004A7C;
+}
+header .miLink:hover {
+  background-color: #005691;
+}
+header .miLogo {
+  width: 150px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
