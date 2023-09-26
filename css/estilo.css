@@ -27,6 +27,11 @@ body {
   font-family: "Mukta", sans-serif;
 }
 
+main {
+  /*seccion nosotros del index*/
+  /*seccion estudio index*/
+  /*seccion teleassist index*/
+}
 main .nosotros {
   background-color: #E8F1F5;
   padding: 100px;
@@ -125,6 +130,158 @@ main .tele .teleTres:hover {
   color: #fafafa;
 }
 main .tele .botonTele {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/*sector informativo*/
+main {
+  /*sector planes informativos*/
+}
+main .obra {
+  background-color: #004A7C;
+  padding: 100px;
+}
+main .obra .tituloObra {
+  text-align: center;
+  color: #fafafa;
+  font-weight: bolder;
+  font-size: 45px;
+}
+main .obra .parrafoObra {
+  text-align: center;
+  color: #fafafa;
+  font-weight: bolder;
+  font-size: 30px;
+}
+main .obra .btassist {
+  background-color: #BBBFCA;
+}
+main .obra .assist {
+  color: #495464;
+  text-decoration: none;
+}
+main .obra .btassist:hover {
+  background-color: #495464;
+}
+main .obra .assist:hover {
+  color: #fafafa;
+}
+main .obra .botonObra {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+main .planes {
+  background-color: #E8F1F5;
+  padding: 100px;
+}
+main .planes .titulosPlanes {
+  color: #004A7C;
+  font-size: 50px;
+  font-weight: bolder;
+  padding-bottom: 50px;
+}
+main .planes .planUno {
+  padding-bottom: 30px;
+}
+main .planes .tituloUno {
+  font-weight: bolder;
+}
+main .planes .paUno {
+  font-size: 25px;
+}
+main .planes .planDos {
+  padding-bottom: 30px;
+}
+main .planes .tituloDos {
+  font-weight: bolder;
+}
+main .planes .paDos {
+  font-size: 25px;
+}
+main .planes .planTres {
+  padding-bottom: 30px;
+}
+main .planes .tituloTres {
+  font-weight: bolder;
+}
+main .planes .paTres {
+  font-size: 25px;
+}
+main .planes .planCuatro {
+  padding-bottom: 30px;
+}
+main .planes .tituloCuatro {
+  font-weight: bolder;
+}
+main .planes .paCuatro {
+  font-size: 25px;
+}
+main .carruselDos {
+  color: black;
+  font-weight: bold;
+}
+
+main .seccionEstudio {
+  background-color: #495464;
+  padding: 100px;
+}
+main .seccionEstudio .tituloEstudio {
+  color: #fafafa;
+  font-weight: bolder;
+  font-size: 45px;
+  text-align: center;
+}
+main .seccionEstudio .parrafoEstudio {
+  color: #fafafa;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+}
+main .serv {
+  background-color: #BBBFCA;
+  padding: 100px;
+}
+main .serv .servTitulo {
+  font-weight: bold;
+  color: #004A7C;
+  font-size: 45px;
+  padding-bottom: 35px;
+}
+main .serv .lista {
+  color: #495464;
+  font-weight: bolder;
+  font-size: 25px;
+}
+main .mej {
+  background-color: #E8E8E8;
+  padding: 100px;
+}
+main .mej .con {
+  color: #004A7C;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+main .mej .botonJuri {
+  background-color: #495464;
+}
+main .mej .coJuri {
+  color: #fafafa;
+  text-decoration: none;
+}
+main .mej .botonJuri:hover {
+  background-color: #BBBFCA;
+}
+main .mej .coJuri:hover {
+  color: #495464;
+}
+main .mej .moverBoton {
   display: flex;
   flex-direction: row;
   align-items: center;
