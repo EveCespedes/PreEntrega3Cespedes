@@ -18,4 +18,117 @@ header .miLogo {
   width: 150px;
 }
 
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+}
+
+main .nosotros {
+  background-color: #E8F1F5;
+  padding: 100px;
+}
+main .nosotros .titulo {
+  font-size: 45px;
+  text-align: center;
+  color: #004A7C;
+  font-weight: bold;
+}
+main .nosotros .descripcionIndex {
+  text-align: center;
+  color: #004A7C;
+  font-weight: bolder;
+}
+main .nosotros .miBoton {
+  color: #fafafa;
+  text-decoration: none;
+}
+main .nosotros .boton {
+  background-color: #005691;
+}
+main .nosotros .botonNosotros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+main .nosotros .bno:hover {
+  background-color: #fafafa;
+  color: #005691;
+}
+main .estudio {
+  background-color: #495464;
+  padding: 100px;
+}
+main .estudio .estudioDos {
+  color: #fafafa;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+}
+main .estudio .indexEstudio {
+  color: #fafafa;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 30px;
+}
+main .estudio .bej {
+  background-color: #E8E8E8;
+}
+main .estudio .bej:hover {
+  background-color: #BBBFCA;
+}
+main .estudio .buej {
+  text-decoration: none;
+  color: #495464;
+}
+main .estudio .buej:hover {
+  color: black;
+}
+main .estudio .estudioTres {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+main .tele {
+  background-color: #004A7C;
+  padding: 100px;
+}
+main .tele .teleDos {
+  text-align: center;
+  color: #fafafa;
+  font-weight: bolder;
+  font-size: 65px;
+}
+main .tele .indexTele {
+  text-align: center;
+  color: #fafafa;
+  font-weight: bolder;
+  font-size: 25px;
+}
+main .tele .teleTres {
+  text-decoration: none;
+  color: #005691;
+}
+main .tele .btele {
+  background-color: #E8F1F5;
+}
+main .tele .btele:hover {
+  background-color: #004A7C;
+  color: #BBBFCA;
+}
+main .tele .teleTres:hover {
+  color: #fafafa;
+}
+main .tele .botonTele {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=estilo.css.map */

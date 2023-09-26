@@ -1,0 +1,153 @@
+main {
+
+    /*seccion nosotros del index*/
+    .nosotros {
+        background-color: #E8F1F5;
+        padding: 100px;
+
+        .titulo {
+            font-size: 45px;
+            text-align: center;
+            color: #004A7C;
+            font-weight: bold;
+        }
+
+        .descripcionIndex {
+            text-align: center;
+            color: #004A7C;
+            font-weight: bolder;
+        }
+
+        .miBoton {
+            color: #fafafa;
+            text-decoration: none;
+        }
+
+        .boton {
+            background-color: #005691;
+
+        }
+
+        .botonNosotros {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .bno:hover {
+            background-color: #fafafa;
+            color: #005691;
+        }
+    }
+
+    /*seccion estudio index*/
+
+    .estudio {
+        background-color: #495464;
+        padding: 100px;
+
+
+        .estudioDos {
+            color: #fafafa;
+            font-weight: bold;
+            text-align: center;
+            font-size: 50px;
+
+        }
+
+        .indexEstudio {
+            color: #fafafa;
+            font-weight: lighter;
+            text-align: center;
+            font-size: 30px;
+
+        }
+
+        .bej {
+            background-color: #E8E8E8;
+
+        }
+
+        .bej:hover {
+            background-color: #BBBFCA;
+
+        }
+
+        .buej {
+            text-decoration: none;
+            color: #495464;
+
+        }
+
+        .buej:hover {
+            color: black;
+        }
+
+        .estudioTres {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+
+
+
+
+    /*seccion teleassist index*/
+
+
+    .tele {
+        background-color: #004A7C;
+        padding: 100px;
+
+
+
+        .teleDos {
+            text-align: center;
+            color: #fafafa;
+            font-weight: bolder;
+            font-size: 65px;
+        }
+
+        .indexTele {
+            text-align: center;
+            color: #fafafa;
+            font-weight: bolder;
+            font-size: 25px;
+        }
+
+        .teleTres {
+            text-decoration: none;
+            color: #005691;
+        }
+
+        .btele {
+            background-color: #E8F1F5;
+        }
+
+        .btele:hover {
+            background-color: #004A7C;
+            color: #BBBFCA;
+        }
+
+        .teleTres:hover {
+            color: #fafafa;
+        }
+
+        .botonTele {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+
+
+
+
+}
