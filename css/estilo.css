@@ -288,4 +288,54 @@ main .mej .moverBoton {
   justify-content: center;
 }
 
+main .parraNos {
+  background-color: #004A7C;
+  padding: 100px;
+}
+main .parraNos .titNos {
+  color: #fafafa;
+  font-weight: 45px;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+main .parraNos .paNos {
+  color: #fafafa;
+  font-size: 30px;
+  text-align: center;
+}
+
+main .formulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+main .formulario .form-container {
+  background-color: #007BFF;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .formulario .form-container input,
+main .formulario .form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+main .formulario .form-container button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=estilo.css.map */
