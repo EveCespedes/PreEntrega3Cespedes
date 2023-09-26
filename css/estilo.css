@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2? family= Lora:ital@1 & family= Mukta & family= Noto+Sans & display=swap");
 header .miFondo {
   background-color: #fafafa;
   border-top: #004A7C solid 5px;
@@ -27,11 +28,6 @@ body {
   font-family: "Mukta", sans-serif;
 }
 
-main {
-  /*seccion nosotros del index*/
-  /*seccion estudio index*/
-  /*seccion teleassist index*/
-}
 main .nosotros {
   background-color: #E8F1F5;
   padding: 100px;
