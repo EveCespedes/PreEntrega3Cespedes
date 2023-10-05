@@ -2,7 +2,7 @@ header {
 
     .miFondo {
         background-color: #fafafa;
-        border-top: #004A7C solid 5px;
+        border-top:$color-principal solid 5px;
     }
 
     .navbar-collapse {
@@ -14,7 +14,7 @@ header {
     }
 
     .nav-link {
-        color: #004A7C;
+        color:$color-principal;
     }
 
     .miLink:hover {

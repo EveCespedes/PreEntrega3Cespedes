@@ -1,26 +1,25 @@
 main {
     .parraNos {
-        background-color: #004A7C;
+        background-color: $color-principal;
         padding: 100px;
 
 
         .titNos {
-            color:#fafafa;
+            @include parrafos;
             font-weight: 45px;
             font-size: 45px;
-            text-align: center;
             padding-bottom: 10px;
-        
+
         }
-        
-        
+
+
         .paNos {
             color: #fafafa;
             font-size: 30px;
             text-align: center;
-        
+
         }
     }
-    
-    
+
+
 }

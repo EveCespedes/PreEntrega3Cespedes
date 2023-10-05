@@ -50,17 +50,16 @@ main {
 
 
         .estudioDos {
-            color: #fafafa;
+            @include parrafos;
             font-weight: bold;
-            text-align: center;
             font-size: 50px;
 
         }
 
         .indexEstudio {
-            color: #fafafa;
+
+            @include parrafos;
             font-weight: lighter;
-            text-align: center;
             font-size: 30px;
 
         }
@@ -130,7 +129,7 @@ main {
         }
 
         .btele:hover {
-            background-color: #004A7C;
+            background-color:$color-principal;
             color: #BBBFCA;
         }
 

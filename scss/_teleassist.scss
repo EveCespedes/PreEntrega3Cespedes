@@ -4,21 +4,19 @@
 
 main {
     .obra {
-        background-color: #004A7C;
+        background-color:$color-principal;
         padding: 100px;
 
 
         .tituloObra {
-            text-align: center;
-            color: #fafafa;
+            @include parrafos;
             font-weight: bolder;
             font-size: 45px;
 
         }
 
         .parrafoObra {
-            text-align: center;
-            color: #fafafa;
+            @include parrafos;
             font-weight: bolder;
             font-size: 30px;
         }
